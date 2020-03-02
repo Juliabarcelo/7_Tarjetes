@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>tarjetes codeartist</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        img{
+            width: 100%;
+        }
+        body{
+            background: linear-gradient(38deg, mediumpurple, orange);
+        }
+        .contenidor{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            padding: 2em;
+            justify-content: center;
+        }
+        .dissenyador{
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            width: 40em;
+            margin: 1em;
+            background: rgba(245,245,245,0.8);
+        }
+        .cont_img img{
+            filter: grayscale(100%);
+            mix-blend-mode: lighten;
+            border-radius: 20px 20px 0 0;
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+        header{
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            color: purple;
+            margin: 0.5em 1em;
+            padding: 0 0 0.2em 0;
+            border-bottom: 1px solid purple;
+        }
+        h3{
+            font-weight: 600;
+            font-style: normal;
+        }
+        h4{
+            font-weight: 500;
+            font-style: italic;
+        }
+        .cont_txt{
+            margin: 1em 1em 0.5em 1em;
+            color: orange;
+            text-align: justify;
+            hyphens: auto;
+            font-size: 0.9em;
+            line-height: 1.4em;
+            flex-grow: 1;
+        }
+        .peu_dissenyador{
+            border-radius: 0 0 20px 20px;
+            background: yellow;
+            color: black;
+            font-style: italic;
+            font-size: 0.9em;
+            padding: 1em 1em 1em 1em;
+        }
+        @media (max-width:600px){
+            body{
+                font-size: 14px;
+            }
+            .contenidor{
+                flex-direction: column;
+            }
+            .dissenyador{
+                width: 30em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contenidor">
+        <div class="dissenyador">
+            <div class="cont_img">
+                <img src="img/Jan%20Tschichold.jpg" alt="Jan Tschichold">
+            </div>
+            <header>
+                <h3>Jan Tschichold</h3>
+                <h4>1902</h4>
+            </header>
+            <div class="cont_txt">
+                <p>·Visitó en Leipzig la “Internationale Ausstellung für Buchegewerbe und Gaphik”, más conocida como Bugra, que tuvo lugar en aquella ciudad y que mostraba un panorama del diseño editorial alemán de aquel momento. ·Aprendió sobre las técnicas de impresión. ·Se fue a estudiar a la Academia de Artes Gráficas de Leipzig donde fue admitido como alumno de Hermann Delitsch con quien aprendió caligrafía, grabado y encuadernación. ·Pasó después a la Escuela de Artes y Oficios de Dresde y más tarde, regresó a Leipzig para hacerse cargo de algunas clases nocturnas de rotulación. ·Dibujó numerosos carteles caligráficos para las distintas ferias comerciales que tenían lugar en Leipzig y comenzó a ser conocido como calígrafo y rotulista, incluso fuera de Alemania.</p>
+            </div>
+            <div class="peu_dissenyador">
+                <p>Trabajó editorial Penguin Books · Libro sobre Die Neue Typographie ·Diseñó carteles para el cine Phoebus-Palast ·Diseñó el cartel Philobilon obra cine</p>
+            </div>
+        </div>
+        <div class="dissenyador">
+            <div class="cont_img">
+                <img src="img/Irsai_Istvan_.jpg" alt="Irsai Istvan">
+            </div>
+            <header>
+                <h3>Irsai Istvan</h3>
+                <h4>1922</h4>
+            </header>
+            <div class="cont_txt">
+                <p>·Trabajó en la imprenta Globus, donde aprendió sobre las técnicas de impresión. István Irsai Trayectoria profesional · Se convertió en un artista gráfico en activo · Desarrolló la primera fuente hebrea moderna el “Haim” · Trabajó como diseñador en el ámbito de teatros judíos, diseañando escenarios. · Diseñó sellos, emblemas y otras obras gráficas para instituciones en Erec-Israel.  También diseñó casas de estilo Bauhaus en Tel-Aviv ·Regresó a Hungría y construyó una destacada carrera como afiche y artista gráfico. ·Diseñó varios diseños de carteles puramente constructivistas para productos comerciales. ·Se instaló en Tel Aviv y continúa trabajando como artista gráfico, diseñó importantes carteles de propaganda para el recién fundado estado de Israel.
+      </p>
+            </div>
+            <div class="peu_dissenyador">
+                <p>Diseñó varios diseños de carteles puramente constructivistas para productos comerciales. ·Se instaló en Tel Aviv y continúa trabajando como artista gráfico, diseñó importantes carteles de propaganda para el recién fundado estado de Israel.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
